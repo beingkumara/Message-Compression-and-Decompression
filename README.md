@@ -1,9 +1,6 @@
 # Message-Compression-and-Decompression
 
-
-
-Description:
-The "Huffman Coding Implementation" project is a C++ program that demonstrates the concept of Huffman coding, a popular data compression technique used to reduce the size of messages or data files efficiently. Huffman coding assigns variable-length codes to characters based on their frequencies in the input message, allowing more frequent characters to have shorter codes and less frequent characters to have longer codes. This approach minimizes the overall space required to represent the message.
+The "Huffman Coding Implementation" project is a C++ program that demonstrates the concept of Huffman coding, a popular data compression technique used to efficiently reduce the size of messages or data files. Huffman coding assigns variable-length codes to characters based on their frequencies in the input message. It allows more frequent characters to have shorter codes and less frequent characters to have longer codes. This approach minimizes the overall space required to represent the message.
 
 The project consists of the following key components:
 
@@ -17,4 +14,4 @@ The project consists of the following key components:
 
 5. Output Files: The program writes the Huffman encoding table (character-frequency-code) to "huffmanTable.txt" and the encoded message to "encoded_data.txt." Additionally, the decoded message is written to "target_message.txt."
 
-By implementing this project, the program showcases the power of Huffman coding in reducing the size of data efficiently, which can be particularly useful in scenarios where data storage or transmission bandwidth is limited. The project also demonstrates a good understanding of data structures such as binary trees and priority queues and showcases programming skills in C++. Adding this project to your resume under the "Projects" section will demonstrate your ability to work on data compression algorithms and your proficiency in C++ programming.
+
