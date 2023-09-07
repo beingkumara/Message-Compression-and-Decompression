@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 /*
 huffman_tree:
 Creating a class for the implementation of a binary tree
@@ -14,7 +13,6 @@ Constructor:
 huffman_tree:
 Input: frequency and the corresponding character
 */
-
 class huffman_tree
 {
 public:
@@ -267,15 +265,23 @@ void findfrequeny(string message)
     {
         freq[c].first++;
     }
+
+    
 }
 
 int main()
 {
     ifstream file;
     file.open("message.txt");
-    string message;
+    std::string message;
+    char c;
+    while (file.get(c)) {
+        message += c;
+    }
+    // string message;
     file >> message;
     file.close();
+    cout<<message<<endl;
     findfrequeny(message);
     messageEncode(message);
     messageDecode(root);
